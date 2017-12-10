@@ -4,13 +4,18 @@
     <Filter Include="src">
       <UniqueIdentifier>{470df4c1-69ff-4a6b-8ca8-70e73cb49344}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{04b00dab-541d-4d48-a2f2-05b8fef0d700}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="class_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class_pool.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
